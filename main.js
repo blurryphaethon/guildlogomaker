@@ -222,7 +222,7 @@ download.addEventListener('click', () => {
   drawImageCrop(exportCanvas.getContext('2d'), 200);
   const link = document.createElement('a');
   link.href = exportCanvas.toDataURL('image/jpeg', 0.98);
-  link.download = 'square-crop-200x200.jpeg';
+  link.download = 'logoExport.jpeg';
   link.click();
 });
 
